@@ -13,7 +13,6 @@ function grabFormInfo() {
 const submitBtn = document.getElementById("task-submit")
 submitBtn.addEventListener("click", function(event){
     console.log(event)
-    console.log(globalThis)
     grabFormInfo()
 })
 
